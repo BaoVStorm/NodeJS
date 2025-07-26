@@ -1,0 +1,29 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nodejs",
+    "learnNodeJS",
+    "VStorm",
+    "blog"
+  ],
+  "homepage": "https://github.com/BaoVStorm/NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/BaoVStorm/NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaoVStorm/NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "VStorm",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
