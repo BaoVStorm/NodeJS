@@ -2,7 +2,7 @@ const express = require('express')
 
 // trả về 1 instance, 1 đối tượng để xây dựng website
 const app = express()
-const port = 3000
+const port = 3004
 
 // định nghĩa route (đường)
 app.get('/', (req, res) => {
