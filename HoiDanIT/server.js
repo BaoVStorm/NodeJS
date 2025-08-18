@@ -1,1 +1,11 @@
-console.log("hello world")
+const express = require("express");
+const app = express();
+const port = 8080;
+
+app.get("/", (req, res) => {
+    res.send("asdfasdf");
+});
+
+app.listen(port, () => {
+    console.log(`example app listening on port ${port}`)
+});
