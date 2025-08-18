@@ -11,6 +11,9 @@ const hostname = process.env.HOST_NAME || 'localhost';
 app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'ejs');
 
+// config static files
+app.use(express.static(path.join(__dirname, 'src/public')));
+
 app.get("/", (req, res) => {
     res.render('sample.ejs')
 });
